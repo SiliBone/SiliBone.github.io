@@ -1,0 +1,50 @@
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.faqs li {
+    margin-bottom: 20px;
+}
+
+.faqs h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.faqs p {
+    color: #777;
+}
+
+.back-button {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    position: absolute; /* Removed */
+    top: 20px; /* Adjusted */
+    left: -50px; /* Adjusted */
+}
+
+.back-button:hover {
+    transform: scale(1.05);
+}
+
+.back-arrow {
+    width: 24px;
+    height: 24px;
+    fill: #333;
+}
+
