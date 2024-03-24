@@ -1,6 +1,0 @@
-php_value display_errors Off
-<FilesMatch "\.xml$">
-    Header set X-Robots-Tag "noindex, nofollow"
-    Order allow,deny
-    Deny from all
-</FilesMatch>
